@@ -38,7 +38,7 @@ public class ConfServlet extends HttpServlet {
             String str = "";
             while(e.hasMoreElements()){
                 str = e.nextElement();
-                out.write(str);
+                out.write(cf.getInitParameter(str));
             }
             out.println("</body>");
             out.println("</html>");

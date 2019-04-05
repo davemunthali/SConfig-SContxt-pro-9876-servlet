@@ -11,7 +11,11 @@
     <context-param>  
         <param-name>dname</param-name>  
         <param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>  
-    </context-param> 
+    </context-param>
+    <context-param>  
+        <param-name>message</param-name>  
+        <param-value>Hello welcome to javaServlet world</param-value>  
+    </context-param>  
     <servlet>
         <servlet-name>ConfServlet</servlet-name>
         <servlet-class>ConfServlet</servlet-class>
